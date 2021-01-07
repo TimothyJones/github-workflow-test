@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TimothyJones/github-workflow-test/issues"
   },
-  "homepage": "https://github.com/TimothyJones/github-workflow-test#readme"
+  "homepage": "https://github.com/TimothyJones/github-workflow-test#readme",
+  "devDependencies": {
+    "standard-version": "^9.1.0"
+  }
 }
