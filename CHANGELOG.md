@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/TimothyJones/github-workflow-test/compare/v1.0.2...v1.1.0) (2021-01-07)
+
+
+### Features
+
+* **release:** Extract release notes from CHANGELOG.md ([8d00668](https://github.com/TimothyJones/github-workflow-test/commit/8d006685b4b6d8ad0b74b4d5bfeb529620c44622))
+
 ### [1.0.2](https://github.com/TimothyJones/github-workflow-test/compare/v1.0.1...v1.0.2) (2021-01-07)
 
 
