@@ -19,6 +19,7 @@ npm install
 npm run release
 
 $($SCRIPT_DIR/lib/semver-from-git.sh)
+$SCRIPT_DIR/lib/semver-from-git.sh
 
 echo "::set-output name=version::$GIT_EXACT_TAG"
 
