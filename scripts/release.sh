@@ -9,10 +9,17 @@ git config user.name "${GITHUB_ACTOR}"
 
 # It's easier to read the release notes from the standard version tool before it runs
 RELEASE_NOTES="$(npx standard-version --dry-run | awk 'BEGIN { flag=0 } /^---$/ { if (flag == 0) { flag=1 } else { flag=2 }; next } flag == 1')"
+RELEASE_NOTES="${RELEASE_NOTES//'%'/'%25'}"
+RELEASE_NOTES="${RELEASE_NOTES//$'\n'/'%0A'}"
+RELEASE_NOTES="${RELEASE_NOTES//$'\r'/'%0D'}"
+
+echo "::set-output name=notes::$RELEASE_NOTES"
 
 npm install
 npm run release
 
-echo "$RELEASE_NOTES"
+$($SCRIPT_DIR/semver-from-git.sh)
+
+echo "::set-output name=version::$GIT_EXACT_TAG"
 
 git push --follow-tags
