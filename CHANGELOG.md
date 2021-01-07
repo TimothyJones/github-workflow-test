@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.5 (2021-01-07)
+
+
+### Bug Fixes
+
+* **release:** Correct variable names in steps ([523537f](https://github.com/TimothyJones/github-workflow-test/commit/523537fb6f61f7870e375e0c7f31e534cbdc2042))
+
 ### 1.1.4 (2021-01-07)
 
 
