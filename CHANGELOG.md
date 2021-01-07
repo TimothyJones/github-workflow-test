@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.4 (2021-01-07)
+
+
+### Bug Fixes
+
+* **release:** Print release tags ([fc4c9a9](https://github.com/TimothyJones/github-workflow-test/commit/fc4c9a956bf35136330c9db3227ea520f7e63be7))
+
 ### 1.1.3 (2021-01-07)
 
 ### 1.1.2 (2021-01-07)
