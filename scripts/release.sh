@@ -9,4 +9,4 @@ npm run release
 
 echo "$GITHUB_CONTEXT"
 
-git push
+git push --follow-tags
