@@ -1,0 +1,24 @@
+name: Create release
+
+on:
+  repository_dispatch:
+    types:
+      - release-triggered
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: scripts/test.sh
+
+  release:
+    needs: test
+    runs-on: ubuntu-latest
+    outputs:
+      gem_name: ${{ steps.release-gem.outputs.gem_name }}
+      version: ${{ steps.release-gem.outputs.version }}
+      increment: ${{ steps.release-gem.outputs.increment }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: scripts/release.sh
