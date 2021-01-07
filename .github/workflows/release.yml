@@ -17,4 +17,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: scripts/release.sh
+      - run: scripts/release.sha
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
