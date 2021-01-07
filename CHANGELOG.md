@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/TimothyJones/github-workflow-test/compare/v1.1.0...v1.1.1) (2021-01-07)
+
+
+### Bug Fixes
+
+* **workflow:** Print context in pushes too ([801ac8a](https://github.com/TimothyJones/github-workflow-test/commit/801ac8a2f7d6cb0a61e2351669236172aa7d981b))
+* **workflow:** Print context in releases ([7cb22ba](https://github.com/TimothyJones/github-workflow-test/commit/7cb22ba092a11b6c48597ef490b0d2eb4752477a))
+* **workflow:** Try different if statement ([5e6e670](https://github.com/TimothyJones/github-workflow-test/commit/5e6e670d1d00c3b1b6055f9c6bf5d1f5cbbdb3cc))
+
 ## [1.1.0](https://github.com/TimothyJones/github-workflow-test/compare/v1.0.2...v1.1.0) (2021-01-07)
 
 
