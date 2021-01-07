@@ -1,0 +1,19 @@
+{
+  "name": "github-workflow-test",
+  "version": "1.0.0",
+  "description": "Test github hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyJones/github-workflow-test.git"
+  },
+  "author": "Timothy Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimothyJones/github-workflow-test/issues"
+  },
+  "homepage": "https://github.com/TimothyJones/github-workflow-test#readme"
+}
