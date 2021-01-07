@@ -2,8 +2,10 @@ name: Push with tag
 
 on:
   push:
-    branches-ignore: "!main"
-    tags: "v*"
+    branches-ignore:
+      - "!main"
+    tags:
+      - "v*"
 
 jobs:
   test:
