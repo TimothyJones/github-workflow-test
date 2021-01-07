@@ -2,7 +2,7 @@ name: Push with tag
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     tags: "v*"
 
 jobs:
