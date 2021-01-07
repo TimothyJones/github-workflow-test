@@ -1,4 +1,4 @@
-name: Push with tag
+name: Release
 
 on:
   release:
