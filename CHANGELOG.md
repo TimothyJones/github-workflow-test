@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.6 (2021-01-09)
+
+
+### Bug Fixes
+
+* **release:** Check out entire history to hopefully correct the compare URL ([93f83eb](https://github.com/TimothyJones/github-workflow-test/commit/93f83eb4d19cc811742ef87e6b400bbca4e5db2c))
+
 ### 1.1.5 (2021-01-07)
 
 
