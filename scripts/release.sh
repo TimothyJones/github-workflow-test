@@ -15,6 +15,8 @@ RELEASE_NOTES="${RELEASE_NOTES//$'\r'/'%0D'}"
 
 echo "::set-output name=notes::$RELEASE_NOTES"
 
+git log | head
+
 npm install
 npm run release
 
